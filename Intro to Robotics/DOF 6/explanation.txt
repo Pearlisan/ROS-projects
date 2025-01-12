@@ -1,0 +1,4 @@
+Robot-State-Publisher- it takes joint angles/displacements as inputs and publishes 3D poses of the robot using the kinematic tree of the robot. The state of the robot is published to tf2. Tf2 is a transform library that is used to keep track of the relationship between coordinate frames over
+time. It maintains a tree structure describing the relationship between the coordinate frames. Also, this library enables us to transform vectors, points, or any quantity between any two coordinate frames.
+
+Joint-State-Publisher - this package is used to publish joint states. It publishes messages of the type sensor_msgs/JointState,
